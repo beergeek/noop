@@ -1,0 +1,11 @@
+{
+  "summary": "Enables or disables noop on nodes",
+  "supports_noop": false,
+  "input_method": "stdin",
+  "parameters": {
+    "action": {
+      "description": "Disable or enable noop [enable, disable]",
+      "type": "Enum[enable, disable]"
+    }
+  }
+}
